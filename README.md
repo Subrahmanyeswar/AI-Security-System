@@ -64,6 +64,21 @@ The high-level pipeline for the Real-Time AI Security System:
 > Note: graphs are generated from operational logs; values will vary based on environment, camera, and model config.
 
 
+## Authorized Faces Setup
+
+This project requires images of authorized persons for the face recognition system.  
+⚠️ For privacy and security reasons, these images are **not included** in the repository.
+
+To set it up:
+1. Go to the folder: `data/authorized_faces/`
+2. Create a subfolder for each authorized person (e.g., `person1`, `person2`)
+3. Place 10–20 clear face images of each person in their respective folder  
+   - Use `.jpg` or `.png`
+   - Include multiple angles/lighting conditions
+
+Example structure:
+
+
 ## ⚡ How to Run
 ```bash
 # 1. Clone the repo
