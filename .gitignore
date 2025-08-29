@@ -10,3 +10,7 @@ random/
 # Python cache
 __pycache__/
 *.pyc
+
+/data/authorized_faces/*/*.jpg
+/data/authorized_faces/*/*.png
+!.keep
