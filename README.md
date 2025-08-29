@@ -77,6 +77,15 @@ To set it up:
    - Include multiple angles/lighting conditions
 
 Example structure:
+data/
+└── authorized_faces/
+├── person1/
+│ ├── img1.jpg
+│ ├── img2.jpg
+└── person2/
+├── img1.png
+├── img2.png
+
 
 
 ## ⚡ How to Run
